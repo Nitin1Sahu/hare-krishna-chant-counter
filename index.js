@@ -13,6 +13,9 @@ document.addEventListener('keydown', (e) => {
                 count.innerHTML = c_no;
                 round.innerHTML = ++r_no;
             }, 300);
+            if (r_no === 15) {
+                document.getElementById('counter').innerHTML = `You 16 rounds are completed for a days `
+            }
         }
     }
 })
