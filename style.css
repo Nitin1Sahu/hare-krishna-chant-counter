@@ -34,6 +34,7 @@ h1 {
     background: whitesmoke;
     /* border-radius: 30px 30px 0 0; */
     padding: 40px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
 }
 #round, #count {
     font-weight: bold;
@@ -50,6 +51,8 @@ h1 {
     font-size: 2rem;
     font-weight: bold;
     margin: 0;
+    margin-top: 20px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
 }
 #increment {
     background: orange;
